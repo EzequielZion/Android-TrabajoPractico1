@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Punto 1:"
+        android:textSize="40dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese texto 1"
+        android:id="@+id/Punto1Texto1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese texto 2"
+        android:id="@+id/Punto1Texto2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar cantidad de caracteres"
+        android:id="@+id/Punto1A"
+        android:onClick="Punto1A"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar cantidad de caracteres excedentes del más largo sobre el más corto"
+        android:id="@+id/Punto1B"
+        android:onClick="Punto1B"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primeros caracteres de cada uno de los textos"
+        android:id="@+id/Punto1C"
+        android:onClick="Punto1C"/>
+</LinearLayout>

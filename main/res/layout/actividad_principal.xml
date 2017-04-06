@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Presione el botón del ejercicio al que quiera ir"
+       android:textSize="25dp"/>
+    <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Punto 1"
+       android:onClick="PresionarBoton1"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Punto 2"
+       android:id="@+id/IrPunto2"
+       android:onClick="PresionarBoton2"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Punto 3"
+       android:id="@+id/IrPunto3"
+       android:onClick="PresionarBoton3"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Punto 4"
+       android:id="@+id/IrPunto4"
+       android:onClick="PresionarBoton4"/>
+</LinearLayout>
+
