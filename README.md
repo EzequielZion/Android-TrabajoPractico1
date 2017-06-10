@@ -1,4 +1,4 @@
-"# TrabajoPractico1" 
+# TrabajoPractico1 
 El objetivo de este primer TP es familiarizarnos con el entorno de desarrollo de Android.
  
 Vamos a programar una aplicación sencilla, utilizando todo lo recientemente aprendido en los tutoriales, tanto en lo relacionado al ingreso de datos por parte de un usuario, como en las distintas modalidades para mostrar resultados.
